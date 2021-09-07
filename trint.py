@@ -23,7 +23,7 @@ print("SeqID", end="")
 for j in range(0,dln,1):
    print(",",diNucl[j], end="")
 print()
-fo = open("list_ENST_lncRNA_mortazavi_human.fasta", "r")
+fo = open("filename.fasta", "r")
 while True:
    line = fo.readline()
    if (re.search("^>", line)):
